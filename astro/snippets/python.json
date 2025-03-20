@@ -1,0 +1,46 @@
+{
+  "list_comprehension": {
+    "prefix": ["list_comprehension", "lc"],
+    "body": [
+      "[${1:expression} for ${2:element} in ${3:iterable} if ${4:condition}]"
+    ],
+    "description": "Snippet for list comprehension"
+  },
+  "dict_comprehension": {
+    "prefix": ["dict_comprehension", "dc"],
+    "body": [
+      "{${1:key_expression}: ${2:value_expression} for ${3:key}, ${4:value} in ${5:iterable}.items() if ${6:condition}}"
+    ],
+    "description": "Snippet for dictionary comprehension"
+  },
+  "list": {
+    "prefix": ["list"],
+    "body": ["[${1:item1}, ${2:item2}, ${3:item3}]"],
+    "description": "Snippet for creating a list"
+  },
+  "dictionary": {
+    "prefix": ["dict"],
+    "body": [
+      "{",
+      "  '${1:key1}': ${2:value1},",
+      "  '${3:key2}': ${4:value2}",
+      "}"
+    ],
+    "description": "Snippet for creating a dictionary"
+  },
+  "tuple": {
+    "prefix": ["tuple"],
+    "body": ["(${1:item1}, ${2:item2}, ${3:item3})"],
+    "description": "Snippet for creating a tuple"
+  },
+  "set": {
+    "prefix": ["set"],
+    "body": ["{${1:item1}, ${2:item2}, ${3:item3}}"],
+    "description": "Snippet for creating a set"
+  },
+  "if_main": {
+    "prefix": ["if_main"],
+    "body": ["if __name__ == '__main__':", "    main()"],
+    "description": "Snippet for if __name__ == '__main__'"
+  }
+}

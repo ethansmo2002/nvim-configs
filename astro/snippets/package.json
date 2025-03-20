@@ -1,0 +1,22 @@
+{
+  "name": "personal-snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./python.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./javascript.json"
+      },
+      {
+        "language": "lua",
+        "path": "./lua.json"
+      }
+    ]
+  }
+}
